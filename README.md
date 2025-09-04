@@ -18,19 +18,14 @@ The goal: compare **accuracy, latency, cost, and usability** between managed AI 
 
 ## 🗂 Repo Structure
 aws-vs-gcp-image-recognition/
-├── aws/ # AWS Rekognition scripts (boto3, S3 setup, inference)
+├── aws/          # AWS Rekognition scripts (boto3, S3 setup, inference)
+├── gcp/          # TensorFlow training + Vertex AI deployment
+├── docker/       # Dockerfiles for reproducibility
+├── data/         # Dataset (or dataset links)
+├── results/      # Metrics, plots, tables
+├── docs/         # Diagrams, notes, project report
+└── README.md     # You are here
 
-├── gcp/ # TensorFlow training + Vertex AI deployment
-
-├── docker/ # Dockerfiles for reproducibility
-
-├── data/ # Dataset (or dataset links)
-
-├── results/ # Metrics, plots, tables
-
-├── docs/ # Diagrams, notes, project report
-
-└── README.md # You are here
 
 
 ---
@@ -74,6 +69,6 @@ A detailed comparison table will be added here once experiments are complete.
 ---
 
 ## 📢 Author
-👤 [Your Name]  
-📍 Data Analytics Apprentice @ PwC | Aspiring Machine Learning Engineer  
+👤 Ali
+📍 Data Analytics Apprentice @ PwC
 
