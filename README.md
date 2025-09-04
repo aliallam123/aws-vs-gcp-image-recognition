@@ -17,7 +17,7 @@ The goal: compare **accuracy, latency, cost, and usability** between managed AI 
 ---
 
 ## 🗂 Repo Structure
-aws-vs-gcp-image-recognition/
+``` aws-vs-gcp-image-recognition/
 ├── aws/          # AWS Rekognition scripts (boto3, S3 setup, inference)
 ├── gcp/          # TensorFlow training + Vertex AI deployment
 ├── docker/       # Dockerfiles for reproducibility
@@ -25,6 +25,7 @@ aws-vs-gcp-image-recognition/
 ├── results/      # Metrics, plots, tables
 ├── docs/         # Diagrams, notes, project report
 └── README.md     # You are here
+```
 
 
 
