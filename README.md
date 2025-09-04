@@ -25,3 +25,49 @@ aws-vs-gcp-image-recognition/
 ├── results/ # Metrics, plots, tables
 ├── docs/ # Diagrams, notes, project report
 └── README.md # You are here
+
+
+---
+
+## 📊 Dataset
+- **Primary Benchmark:** CIFAR-10 (10 classes, 60k images).  
+- **Optional Extension:** Small custom dataset (personal photos) to test real-world generalisation.  
+
+---
+
+## ⚙️ Tools & Tech
+- **AWS Rekognition, S3, IAM**  
+- **Google Cloud (Vertex AI, TensorFlow, Keras)**  
+- **Python (pandas, scikit-learn, matplotlib)**  
+- **Docker** (for packaging & reproducibility)  
+
+---
+
+## ✅ Current Status
+- [ ] AWS pipeline working  
+- [ ] GCP TensorFlow model training  
+- [ ] Metrics collection & comparison  
+- [ ] Docker setup  
+- [ ] Final results & documentation  
+
+---
+
+## 🔥 Why This Project?
+This project demonstrates skills in:
+- Deep learning with **TensorFlow**  
+- Cloud ML workflows (**AWS + GCP**)  
+- Benchmarking ML systems (accuracy, latency, cost)  
+- **MLOps fundamentals** (Docker, reproducibility)  
+- Communicating results (reports, plots, LinkedIn write-up)  
+
+---
+
+## 📌 Results (coming soon)
+A detailed comparison table will be added here once experiments are complete.  
+
+---
+
+## 📢 Author
+👤 [Your Name]  
+📍 Data Analytics Apprentice @ PwC | Aspiring Machine Learning Engineer  
+
