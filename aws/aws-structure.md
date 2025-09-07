@@ -1,3 +1,4 @@
+```
 aws/
   ├── src/
   │   ├── rek_detect_labels.py        # core inference script
@@ -17,3 +18,4 @@ results/
   └── plots/
 docs/
   └── aws_pipeline.md
+```
