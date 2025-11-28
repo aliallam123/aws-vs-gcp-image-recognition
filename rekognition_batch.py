@@ -12,18 +12,20 @@ reko_client = boto3.client(
     region_name="us-east-1"
 )
 
-input_dir = "cifar10_images"
+input_dir = "val2017"
 results = []
+counter = 0
 
 for filename in os.listdir(input_dir):
     if not filename.endswith(".jpg"):
         continue
 
+    counter += 1
     with open(os.path.join(input_dir, filename), "rb") as img_file:
         image_bytes = img_file.read()
-
+        
     start = time.time()
-    response = reko_client.detect_labels(Image={'Bytes': image_bytes}, MaxLabels=10, MinConfidence=50)
+    response = reko_client.detect_labels(Image={'Bytes': image_bytes}, MaxLabels=10, MinConfidence=90)
     end = time.time()
 
     latency = end - start
@@ -35,6 +37,10 @@ for filename in os.listdir(input_dir):
             "confidence": label["Confidence"],
             "latency": latency
         })
+
+    if counter == 1000:
+        break
+
 
 # save results
 with open("rekognition_results.csv", "w", newline="") as csvfile:
