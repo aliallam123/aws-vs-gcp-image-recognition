@@ -23,8 +23,10 @@ The goal of this project is to understand the trade-offs between a fully managed
 ## Dataset
 
 - Dataset: Common Objects in Context (COCO) 2017  
-- Description: Real-world images across everyday objects and scenes  
-- The same dataset and image subset were used for both platforms to keep the comparison fair  
+- Source: https://cocodataset.org/#download  
+- Subset used: 2017 validation images  
+
+The COCO 2017 validation dataset was downloaded directly from the official COCO website as a ZIP file and extracted locally for use in this project. The same image subset was used across both AWS and GCP workflows to ensure a fair comparison.
 
 The dataset itself is not included in this repository due to size constraints.
 
