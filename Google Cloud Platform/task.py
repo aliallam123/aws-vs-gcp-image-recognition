@@ -1,5 +1,3 @@
-# Training Horses vs Humans using CNN
-
 import tensorflow_datasets as tfds
 import tensorflow as tf
 from tensorflow.python.client import device_lib
